@@ -18,4 +18,4 @@
 按下图点击。确保打开workflow
 ![image](https://user-images.githubusercontent.com/30517062/193445833-ae8c6ab9-018a-439f-b685-783d7514dbe8.png)
 ## 手动运行脚本
-随便更改readme内的内容进行一次push就行了。
+随便更改readme内的内容进行一次push就行了。?
