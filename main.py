@@ -20,11 +20,13 @@ def run(playwright: Playwright, stu_id, password) -> None:
     # Click text=下一步
     page.click("text=下一步")
     page.click("label:has-text(\"健康\")")
-    # Click #radio_sfycxxwc42
-    page.click("#radio_sfycxxwc42")
-    # Click text=*行程码是否绿码： 是否 >> ins
+    # Click 是否出校，sfycxxwc42:是;sfycxxwc44:否
+    page.click("#radio_sfycxxwc44")
+    # Click 行程码是否绿码 >> ins
     page.click("#radio_xcm5")
-    page.click("text=在上海")
+    # Click radio_xrywz34:奉贤校区;radio_xrywz38：在国内其他地方
+    page.click("#radio_xrywz34")
+    # page.click("text=在上海") 原作者选的
     # Click text=提交
     page.click("text=提交")
     # Click text=确定
