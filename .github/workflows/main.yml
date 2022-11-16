@@ -1,8 +1,5 @@
 name: AutoSignIn
 on:
-  push:
-  schedule:
-    - cron: '5 16 * * *'
   watch:
     types: started
 jobs:
